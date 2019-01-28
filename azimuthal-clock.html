@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head><META HTTP-EQUIV="refresh" CONTENT="60"></head>
+<body>
+<center>
+
+<font face="calibri" size="30">
+<span id="datetime"></span>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (dt.getFullYear()) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+(("0"+dt.getDate()).slice(-2)) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+
+</script>
+<br>
+
+<script>
+<!--
+var current= new Date()
+var day_night=current.getHours()							
+							
+if (day_night>=23) {							
+document.write("<img src='./sunmap (0600).jpg'>")							
+} else if (day_night>=22) {							
+document.write("<img src='./sunmap (0500).jpg'>")							
+} else if (day_night>=21) {							
+document.write("<img src='./sunmap (0400).jpg'>")
+} else if (day_night>=20) {							
+document.write("<img src='./sunmap (0300).jpg'>")							
+} else if (day_night>=19) {							
+document.write("<img src='./sunmap (0200).jpg'>")							
+} else if (day_night>=18) {							
+document.write("<img src='./sunmap (0100).jpg'>")							
+} else if (day_night>=17) {							
+document.write("<img src='./sunmap (0000).jpg'>")							
+} else if (day_night>=16) {							
+document.write("<img src='./sunmap (2300).jpg'>")							
+} else if (day_night>=15) {							
+document.write("<img src='./sunmap (2200).jpg'>")							
+} else if (day_night>=14) {							
+document.write("<img src='./sunmap (2100).jpg'>")							
+} else if (day_night>=13) {							
+document.write("<img src='./sunmap (2000).jpg'>")							
+} else if (day_night>=12) {							
+document.write("<img src='./sunmap (1900).jpg'>")							
+} else if (day_night>=11) {							
+document.write("<img src='./sunmap (1800).jpg'>")							
+} else if (day_night>=10) {							
+document.write("<img src='./sunmap (1700).jpg'>")							
+} else if (day_night>=09) {							
+document.write("<img src='./sunmap (1600).jpg'>")							
+} else if (day_night>=08) {							
+document.write("<img src='./sunmap (1500).jpg'>")							
+} else if (day_night>=07) {							
+document.write("<img src='./sunmap (1400).jpg'>")							
+} else if (day_night>=06) {							
+document.write("<img src='./sunmap (1300).jpg'>")							
+} else if (day_night>=05) {							
+document.write("<img src='./sunmap (1200).jpg'>")							
+} else if (day_night>=04) {							
+document.write("<img src='./sunmap (1100).jpg'>")							
+} else if (day_night>=03) {							
+document.write("<img src='./sunmap (1000).jpg'>")							
+} else if (day_night>=02) {							
+document.write("<img src='./sunmap (0900).jpg'>")							
+} else if (day_night>=01) {							
+document.write("<img src='./sunmap (0800).jpg'>")							
+} else if (day_night>=00) {							
+document.write("<img src='./sunmap (0700).jpg'>")							
+} else {							
+document.write("<img src='./sunmap (error).jpg'>")							
+}							
+//-->
+</script>
+
+							
+							
+							
+</font>							
+</center>							
+</body>							
+</html>							
